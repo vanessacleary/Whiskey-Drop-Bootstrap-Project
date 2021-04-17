@@ -11,18 +11,18 @@
 </head>
 
 <body>
-    <div class="container-fluid navalert-container">
-        <div class="container-fluid alert-container">
-            <div class="row d-none d-sm-block">
-                <div class="col-12">
-                    <div class="site-wide-alert alert alert-warning">
-                        <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of
-                        6! <a href="">See here for details!</a>
-                    </div>
+
+    <div class="container-fluid alert-container">
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="site-wide-alert alert alert-warning">
+                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of
+                    6! <a href="">See here for details!</a>
                 </div>
             </div>
         </div>
     </div>
+
 
     <nav class="navbar navbar-dark navbar-expand-sm">
         <a href="/" class="navbar-brand">Whiskey Drop</a>
@@ -206,10 +206,11 @@
     </div>
 
     <!-- Monthly favorite -->
-    <section class="monthly-favorite">
+    <section class="monthly-favorite container">
         <div class="row">
             <div class="col-12 my-5">
                 <h2 class="text-uppercase">Monthly favorite:</h2>
+                <hr class="block-divider block-divider--short block-divider--red">
             </div>
         </div>
         <div class="row">
@@ -223,24 +224,24 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Whiskey 1</td>
-                            <td>Country</td>
+                            <td>Irish Whiskey</td>
+                            <td>Ireland</td>
                         </tr>
                         <tr>
-                            <td>Whiskey 2</td>
-                            <td>Country</td>
+                            <td>Scotch</td>
+                            <td>Scotland</td>
                         </tr>
                         <tr>
-                            <td>Whiskey 3</td>
-                            <td>Country</td>
+                            <td>Japanese</td>
+                            <td>Japan</td>
                         </tr>
                         <tr>
-                            <td>Whiskey 4</td>
-                            <td>Country</td>
+                            <td>Bourbon</td>
+                            <td>American</td>
                         </tr>
                         <tr>
-                            <td>Whiskey 5</td>
-                            <td>Country</td>
+                            <td>Canadian Whiskey</td>
+                            <td>Canada</td>
                         </tr>
                     </tbody>
                 </table>
@@ -249,15 +250,46 @@
     </section>
     <!-- /.monthly favorite -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
+    <!-- Contact form -->
+
+    <section class="form-header container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <h2 class="text-uppercase">Contact us:</h2>
+                <hr class="block-divider block-divider--short block-divider--red">
+            </div>
+        </div>
+
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </form>
+
+        <button type="button" class="btn btn-info">Submit</button>
+        <hr>
+
+        <!-- Contact form -->
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

@@ -4,7 +4,7 @@ body {
 
 
 .container-wrapper--red {
-    background-color: #f05f40;
+    background-color: #943023;
     color: white;
 
 }
@@ -27,7 +27,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
+    background: url('../images/whiskey.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -130,7 +130,7 @@ body {
 }
 
 .block-divider--orange {
-    background-color: #f05f40;
+    background-color: #943023;
 }
 
 .block-divider--white {
@@ -157,8 +157,8 @@ body {
 
 .btn--red {
     color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    background-color: #091782;
+    border-color: #091782;
 }
 
 .btn--red:hover,
@@ -189,5 +189,38 @@ body {
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40
+    color: #943023;
+}
+
+/* Monthly favourites */
+.monthly-favorite {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+/* Form */
+
+.form-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.contact-form {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.contact-form {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: left
+}
+
+.btn-info {
+    color: white;
+    background-color: #091782;
+    border-color: #091782;
 }
