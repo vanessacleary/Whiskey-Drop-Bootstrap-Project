@@ -120,6 +120,10 @@ body {
     margin-bottom: 25px;
 }
 
+.quotes h2 {
+    color: #943023;
+}
+
 /* Block dividers */
 
 .block-divider {
@@ -130,6 +134,10 @@ body {
 }
 
 .block-divider--orange {
+    background-color: #943023;
+}
+
+.block-divider--red {
     background-color: #943023;
 }
 
@@ -199,12 +207,21 @@ body {
     text-align: center;
 }
 
+.monthly-favorite h2 {
+    color: #943023;
+}
+
 /* Form */
 
 .form-header {
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
+    color: #943023;
+}
+
+.contact-form h2 {
+    color: #943023;
 }
 
 .contact-form {
@@ -212,6 +229,7 @@ body {
     border-bottom: 0;
     text-align: center;
 }
+
 
 .contact-form {
     margin-bottom: 0;
@@ -223,4 +241,20 @@ body {
     color: white;
     background-color: #091782;
     border-color: #091782;
+}
+
+/* Form */
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
 }
